@@ -129,10 +129,6 @@ CREATE TABLE Feedback (
 );
 ```
 
-[Entity Relationship Diagram](Task-2-ER-Diagram.png)
-
-[Class Diagram](Task-2-Class-Diagram.png)
-
 # Input Data 
 ### Venue Table
 ```sql
@@ -203,3 +199,7 @@ INSERT INTO Feedback (Comments, Rating, EventId) VALUES
 ('Loved the speaker lineup!', 5, 4),
 ('Good event but too crowded', 4, 5);
 ```
+
+[Entity Relationship Diagram](Task-2-ER-Diagram.png)
+
+[Class Diagram](Task-2-Class-Diagram.png)
