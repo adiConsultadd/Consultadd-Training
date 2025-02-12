@@ -1,10 +1,10 @@
 WITH temp_table_1 AS (
-select image_id, 1 as weak_label from 
+select image_id, Round(score) as weak_label from 
 (select *, row_number() over(order by score desc) new_col from unlabeled_image_predictions) as new_table 
 where new_col%3=1 limit 10000),
 
 temp_table_2 AS ( 
-select image_id, 0 as weak_label from 
+select image_id, Round(score) as weak_label from 
 (select *, row_number() over(order by score asc) new_col from unlabeled_image_predictions) as new_table 
 where new_col%3=1 limit 10000)
 
