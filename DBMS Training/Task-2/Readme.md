@@ -203,3 +203,5 @@ INSERT INTO Feedback (Comments, Rating, EventId) VALUES
 [Entity Relationship Diagram](Task-2-ER-Diagram.png)
 
 [Class Diagram](Task-2-Class-Diagram.png)
+
+[Queries](Task-2-Queries.sql)
