@@ -58,3 +58,5 @@ CREATE TABLE Feedback (
     EventId INT NOT NULL,
     FOREIGN KEY (EventId) REFERENCES Event(EventId)
 );
+
+
