@@ -14,6 +14,10 @@
 ## Basic SQL Commands
 - There are 4 types of SQL Languages, and each and every command lies in one of four Languages.
 - Namely DDL, DML, DCL and TCL.
+- DDL or Data Definition Language consists of keywords like Create, Alter And Drop.
+- DML or Data Manipulation Language consists of keywords like Select, Insert, Update and Delete which are mostly after the creation of the databases and tables.
+- DCL or Data Control Language consists of keywords like Grant and Revoke which are used to secure out database and to prevent any un-authorized person from reading or writing on our data.
+- TCL or Transactions Control Language consists of keywords like Begin, Commit, Saved Points and Rollbacks, which are used to using Transactions.
 
 ## Advanced SQL Queries
 - Revised Joins and All of its types. 
