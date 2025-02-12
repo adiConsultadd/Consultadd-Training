@@ -1,17 +1,17 @@
 # Learnings In Database Training
-## Introduction To Databases
+## Module - 1 : Introduction To Databases
 - First I studied about how the databases have evolved over the years.
-- After that I took a deep dive into the differeces between Relational and Non-Relational databases. Key takeaway was that the Relational databases are used for mostly structured data and on the other hand the Non-Relational databases are used for un-structured data. And also how Relational databases supports vertical-scaling and Non-Relational databases supports vertical scaling.
+- After that I took a deep dive into the differeces between Relational and Non-Relational databases. Key takeaway was that the Relational databases are used for mostly structured data and on the other hand the Non-Relational databases are used for un-structured data. And also how Relational databases supports vertical-scaling and Non-Relational databases supports vertical scaling. Schema's for Relational Databased are very rigid on the other hand for the Non-Relational databased the Schema is flexile making it an ideal choice for un-structured data. But when we want out database to follow ACID properties and Normalization, then we must choose Relational Databases and when the focus is not that much on ACID properties and Normalization we can use Non-Relational Databases.
 - After that I studied about DBMS and how it has simplified the whole eco-system. It acts as an interface between the user and the database, helping them perform the CRUD operation simply.
 - At last I researched about SQL and NoSQL databases. And read a little about types of NoSql databases like MongoDb, Cassandra, Redis etc.
 
-## Relational Database Fundamentals
+## Module - 2 : Relational Database Fundamentals
 - In this I studied about the Entity-Relationship Model or the ER model. 
 - Along with that I also revised the Primary and Foreign keys.
 - Then I revised about Normalization and its form and how we can go from one form to another sequentially using rules of each form.
 - At last I studied about denormalization and how it can help in faster query.
 
-## Basic SQL Commands
+## Module - 3 : Basic SQL Commands
 - There are 4 types of SQL Languages, and each and every command lies in one of four Languages.
 - Namely DDL, DML, DCL and TCL.
 - DDL or Data Definition Language consists of keywords like Create, Alter And Drop.
@@ -19,7 +19,7 @@
 - DCL or Data Control Language consists of keywords like Grant and Revoke which are used to secure out database and to prevent any un-authorized person from reading or writing on our data.
 - TCL or Transactions Control Language consists of keywords like Begin, Commit, Saved Points and Rollbacks, which are used to using Transactions.
 
-## Advanced SQL Queries
+## Module - 4 : Advanced SQL Queries
 - Revised Joins and All of its types. 
 - Practiced some sub-queries as it was heavly used in the first task.
 - Revised about all the types of operators present in the SQL, namely UNION, UNION ALL, INTERSECT. EXCEPT was the new one that I had to study from youtube.
