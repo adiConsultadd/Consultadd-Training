@@ -162,12 +162,12 @@ INSERT INTO Event (EventName, EventDate, VenueId, OrganizerId) VALUES
 
 ### Attendee Table
 ```sql
-INSERT INTO Event (EventName, EventDate, VenueId, OrganizerId) VALUES
-('Tech Summit India', '2025-03-15', 1, 1),
-('Startup Expo', '2025-04-10', 2, 2),
-('AI Conference', '2025-05-05', 3, 3),
-('Healthcare Innovation Meet', '2025-06-20', 4, 4),
-('E-commerce Growth Hack', '2025-07-25', 5, 5);
+INSERT INTO Attendee (Name, Email, Phone) VALUES
+('Rahul Gupta', 'rahul.gupta@example.com', '9998887776'),
+('Pooja Reddy', 'pooja.reddy@example.com', '9876543211'),
+('Ankit Verma', 'ankit.verma@example.com', '9765432198'),
+('Neha Sharma', 'neha.sharma@example.com', '9654321987'),
+('Arjun Nair', 'arjun.nair@example.com', '9543219876');
 ```
 
 ### Booking Table
