@@ -21,6 +21,6 @@ For weak_label I have used ROUND() function, which round's any number above 0.5 
 
 
 # Concepts Used :
-## Window Functions - ROW_NUMBER()
-## Common Table Expressions - CTE
-## UNION Operator
+- Window Functions - ROW_NUMBER()
+- Common Table Expressions - CTE
+- UNION Operator
