@@ -1,8 +1,8 @@
 # Task :
-#### In the second task we had to do the following things for an Event Management System : 
-- Make Entity Relationship Diagram - ER Diagram
-- Make Class Diagram 
-- Give Working Queries
+#### In the second task I had to do the following things :
+- Make Entity Relationship Diagram - ER Diagram for an Event Management System 
+- Make Class Diagram  for an Event Management System 
+- Give Working Queries for the Event Management System optimised till 3rd Normal Form
 
 # Approach : 
 #### Firstly for an Event Management System we need to make the following Tables : 
