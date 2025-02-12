@@ -53,8 +53,8 @@
 # Code 
 ### Create A New Databasae And Use It 
 ```sql 
-Create Database Task2
-Use Task2
+Create Database event_management;
+Use event_management;
 ```
 ### Create Venue Table
 ```sql
