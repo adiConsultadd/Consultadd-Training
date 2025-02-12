@@ -128,3 +128,7 @@ CREATE TABLE Feedback (
     FOREIGN KEY (EventId) REFERENCES Event(EventId)
 );
 ```
+
+[Entity Relationship Diagram](Task-2-ER-Diagram.png)
+
+[Class Diagram](Task-2-Class-Diagram.png)
