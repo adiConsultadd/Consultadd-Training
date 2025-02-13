@@ -1,4 +1,4 @@
-# Task :
+# Task-2 :  Event Management System:
 #### In the second task I had to do the following things :
 - Make Entity Relationship Diagram - ER Diagram for an Event Management System 
 - Make Class Diagram  for an Event Management System 
