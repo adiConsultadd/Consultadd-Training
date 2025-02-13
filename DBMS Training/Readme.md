@@ -26,3 +26,13 @@
 - Revised all the window functions present in SQL. And how DENSE_RANK() and RANK() differ from each other and their specific use cases while ranking of the data. NTILE() was a new window functiom that I was not aware of so it took me some time to study about it, I took help from youtube and online resources.
 - Then I studied about recursive CTE's, got used to its syntax.
 - At last learnt about pivoting and unpivoting data, and how they are heavily used in analytics. Pivoting is used to covert rows into columns and similarly Un-Pivoting is used covert columns into rows. Also studied about some other ways to do the same without using the PIVOT keyword that is present in SQL, i.e. using CASE statements and aggregate functions.
+
+## Module - 5 : Database Design And Optimization
+- Queries are generally resolved using table scan in which to find a specific row in the database, it checks each row one by one from start to end. This is a very time taking process as in case the number of rows is very much in the table then it would take a lot of time. So, to perform faster queries the concept of index is used. In which a B+ tree is constructed which reduces the time taken to find some row to as low as O(log(n)) where n is the total number of enteries. Then there are two types of index, clustered and non-clustered index. There can be only one clustered index on the other hand there can be more than one non-clustered index.
+-  Indexing is a query Optimization technique as it reduce the time complexity of search from O(n) to as low as O(log(n)).
+- Sharding : It is the process of horizonatal scaling, in which more server are added along with the exiting servers. All the present servers are called shards.
+- Partitioning : It is the process of dividing the existing dataset into multiple smaller portions, and then each portion is assigned to one shard. This way if there is a request of some data (x) present in shard-2, then this only be handled by shard-2 only.
+- Concurreny Control : It is a technique used in DBMS to manage simultaneous execution of transactions while maintaining data consistency and integrity. If it not handled correctly then problems like Dirty Read,  Non-Repeatable Read and Phantom Read can exist. There are four Isolation Levels Read Uncomitted, Read Comitted, Repeatable Read and then Serializable. Each of these helps in isolation of transactions. 
+- Deadlock : A deadlock is a condition in which two or more processes are waiting for each other to release locks, creating an indefinite wait condition in which neither is able to move forward.
+- There are two ways to handle deadlocks, first prevent deadlock from taking place or let it happen and then recover from it.
+
