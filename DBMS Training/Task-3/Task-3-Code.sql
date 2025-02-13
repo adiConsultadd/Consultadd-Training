@@ -25,6 +25,3 @@ FROM temp_table_2 as t  JOIN accounts as a
 ON t.account_id = a.id
 GROUP BY a.username, t.type, t.quality
 ORDER BY a.username, t.type;
-
-
-
