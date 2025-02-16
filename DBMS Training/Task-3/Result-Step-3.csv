@@ -1,0 +1,9 @@
+account_id,type,quality,item_id,name
+1,shield,epic,10,"Shield of Rosaceae"
+1,armor,rare,7,"Armor of Myrtaceae"
+1,sword,common,1,"Sword of Solanaceae"
+1,shield,epic,3,"Shield of Fagaceae"
+1,sword,common,6,"Sword of Loasaceae"
+2,shield,epic,8,"Shield of Rosaceae"
+2,sword,common,6,"Sword of Loasaceae"
+2,shield,epic,3,"Shield of Fagaceae"
